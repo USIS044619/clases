@@ -1,6 +1,6 @@
 ﻿namespace pazluis
 {
-    partial class Form1
+    partial class Vehiculos
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -215,7 +215,7 @@
             this.lblidvehiculo.Size = new System.Drawing.Size(0, 13);
             this.lblidvehiculo.TabIndex = 18;
             // 
-            // Form1
+            // Vehiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -233,8 +233,8 @@
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnNuevo);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Vehiculos";
+            this.Text = "Vehiculos";
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.pnlNavegacion.ResumeLayout(false);
             this.pnlNavegacion.PerformLayout();

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace pazluis
 {
-    public partial class Form1 : Form
+    public partial class Vehiculos : Form
     {
 
         conexion objConexion = new conexion();
@@ -19,7 +19,7 @@ namespace pazluis
         DataTable tbl = new DataTable();
 
 
-        public Form1()
+        public Vehiculos()
         {
             InitializeComponent();
         }
