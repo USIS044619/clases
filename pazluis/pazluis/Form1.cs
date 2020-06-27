@@ -185,7 +185,7 @@ namespace pazluis
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             Busqueda_Vehiculos buscarProducto = new Busqueda_Vehiculos();
-            //buscarProducto.ShowDialog();
+            buscarProducto.ShowDialog();
 
             if (buscarProducto._IdVehiculo > 0)
             {
