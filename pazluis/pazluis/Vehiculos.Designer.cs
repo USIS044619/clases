@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vehiculos));
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -51,9 +52,9 @@
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(59, 288);
+            this.btnNuevo.Location = new System.Drawing.Point(66, 299);
             this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(75, 23);
+            this.btnNuevo.Size = new System.Drawing.Size(75, 35);
             this.btnNuevo.TabIndex = 0;
             this.btnNuevo.Text = "Nuevo";
             this.btnNuevo.UseVisualStyleBackColor = true;
@@ -61,9 +62,9 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(151, 288);
+            this.btnModificar.Location = new System.Drawing.Point(158, 299);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.Size = new System.Drawing.Size(75, 35);
             this.btnModificar.TabIndex = 1;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
@@ -71,9 +72,9 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(242, 288);
+            this.btnEliminar.Location = new System.Drawing.Point(249, 299);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.Size = new System.Drawing.Size(75, 35);
             this.btnEliminar.TabIndex = 2;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -81,9 +82,9 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(335, 288);
+            this.btnBuscar.Location = new System.Drawing.Point(342, 299);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.Size = new System.Drawing.Size(75, 35);
             this.btnBuscar.TabIndex = 3;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -144,15 +145,15 @@
             this.pnlNavegacion.Controls.Add(this.btnSiguiente);
             this.pnlNavegacion.Controls.Add(this.btnAnterior);
             this.pnlNavegacion.Controls.Add(this.btnPrimero);
-            this.pnlNavegacion.Location = new System.Drawing.Point(151, 207);
+            this.pnlNavegacion.Location = new System.Drawing.Point(-1, 207);
             this.pnlNavegacion.Name = "pnlNavegacion";
-            this.pnlNavegacion.Size = new System.Drawing.Size(191, 49);
+            this.pnlNavegacion.Size = new System.Drawing.Size(500, 51);
             this.pnlNavegacion.TabIndex = 16;
             // 
             // lblregistroxden
             // 
             this.lblregistroxden.AutoSize = true;
-            this.lblregistroxden.Location = new System.Drawing.Point(67, 16);
+            this.lblregistroxden.Location = new System.Drawing.Point(223, 19);
             this.lblregistroxden.Name = "lblregistroxden";
             this.lblregistroxden.Size = new System.Drawing.Size(36, 13);
             this.lblregistroxden.TabIndex = 6;
@@ -160,9 +161,9 @@
             // 
             // btnUltimo
             // 
-            this.btnUltimo.Location = new System.Drawing.Point(156, 3);
+            this.btnUltimo.Location = new System.Drawing.Point(400, 2);
             this.btnUltimo.Name = "btnUltimo";
-            this.btnUltimo.Size = new System.Drawing.Size(32, 38);
+            this.btnUltimo.Size = new System.Drawing.Size(49, 47);
             this.btnUltimo.TabIndex = 3;
             this.btnUltimo.Text = ">|";
             this.btnUltimo.UseVisualStyleBackColor = true;
@@ -170,9 +171,9 @@
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.Location = new System.Drawing.Point(125, 3);
+            this.btnSiguiente.Location = new System.Drawing.Point(336, 2);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(32, 38);
+            this.btnSiguiente.Size = new System.Drawing.Size(49, 47);
             this.btnSiguiente.TabIndex = 2;
             this.btnSiguiente.Text = ">";
             this.btnSiguiente.UseVisualStyleBackColor = true;
@@ -180,9 +181,9 @@
             // 
             // btnAnterior
             // 
-            this.btnAnterior.Location = new System.Drawing.Point(33, 3);
+            this.btnAnterior.Location = new System.Drawing.Point(98, 2);
             this.btnAnterior.Name = "btnAnterior";
-            this.btnAnterior.Size = new System.Drawing.Size(32, 38);
+            this.btnAnterior.Size = new System.Drawing.Size(49, 47);
             this.btnAnterior.TabIndex = 1;
             this.btnAnterior.Text = "<";
             this.btnAnterior.UseVisualStyleBackColor = true;
@@ -190,9 +191,9 @@
             // 
             // btnPrimero
             // 
-            this.btnPrimero.Location = new System.Drawing.Point(2, 3);
+            this.btnPrimero.Location = new System.Drawing.Point(28, 2);
             this.btnPrimero.Name = "btnPrimero";
-            this.btnPrimero.Size = new System.Drawing.Size(32, 38);
+            this.btnPrimero.Size = new System.Drawing.Size(49, 47);
             this.btnPrimero.TabIndex = 0;
             this.btnPrimero.Text = "|<";
             this.btnPrimero.UseVisualStyleBackColor = true;
@@ -219,6 +220,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(498, 392);
             this.Controls.Add(this.lblidvehiculo);
             this.Controls.Add(this.label4);
@@ -234,6 +237,7 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.btnNuevo);
             this.Name = "Vehiculos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vehiculos";
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.pnlNavegacion.ResumeLayout(false);
